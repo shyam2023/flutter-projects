@@ -46,6 +46,6 @@ app.*.map.json
 /android/app/release
 
 #igone the api key files 
-/lib/provider/currentweatherprovider.dart
-/lib/provider/SearchLocation.dart
-/lib/provider/weatherprovider.dart
+/lib/provider/.currentweatherprovider.dart
+/lib/provider/.SearchLocation.dart
+/lib/provider/.weatherprovider.dart
