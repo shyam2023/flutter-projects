@@ -3,3 +3,8 @@ workflows:
     name: Weather app
     max_build_duration: 120
     instance_type: mac_mini_m1
+scripts:
+  artifacts:
+  - build/ios/ipa/*.ipa
+  - /tmp/xcodebuild_logs/*.log
+  - flutter_drive.log
